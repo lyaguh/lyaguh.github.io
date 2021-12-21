@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;1,400;1,700&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
 * {
     margin: 0;
     font-family: 'Poppins', sans-serif;
@@ -28,7 +32,7 @@ a {
 .header_title {
     margin: 0;
     padding: 0;
-    padding-left: 4rem;
+    padding-left: 10.5rem;
     text-transform: uppercase;
     font-weight: 600;
     font-style: italic;
@@ -62,6 +66,7 @@ a {
 
 .signup {
     padding: 0.5rem;
+    padding-bottom: 0.1rem;
     border-color: rgb(90, 90, 90);
     border-width: 0.2rem;
     border-style: solid;
@@ -94,6 +99,11 @@ a {
     font-weight: 200;
     font-size: 2rem;
     text-align: center;
+    color: white;
+}
+
+.information {
+    padding: 0 3rem;
     color: white;
 }
 
