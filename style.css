@@ -23,6 +23,7 @@ a {
 .head_logo {
     height: 2.5rem;
     width: 2.5rem;
+    position: fixed;
 }
 .header_title {
     margin: 0;
