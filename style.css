@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+a {
+    text-decoration: none;
+}
+.headder {
+    background-image: linear-gradient(90deg, powderblue, pink);
+    text-align: center;
+    color: rgb(90, 90, 90);
+    margin: 0;
+    padding: 2rem;
+
+    height: min-content;
+}
+.header_flex {
+    display: flex;
+    justify-content: space-between;
+}
+.head_logo {
+    height: 2.5rem;
+    width: 2.5rem;
+}
+.header_title {
+    margin: 0;
+    padding: 0;
+    padding-left: 4rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 2.5rem;
+}
+
+.headder .buttons {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 8rem;
+    padding-right: 2rem;
+    font-size: 1.4rem;
+    font-weight: normal;
+}
+.info_button {
+    padding: 0.5rem;
+    border-color: rgb(90, 90, 90);
+    border-width: 0.2rem;
+    border-style: solid;
+    margin-right: 1rem;
+    cursor: pointer;
+    color: rgb(90, 90, 90);
+    text-decoration: none;
+}
+
+.info_button:hover {
+   background-color: powderblue;
+   transition-duration: 1s; 
+}
+
+.signup {
+    padding: 0.5rem;
+    border-color: rgb(90, 90, 90);
+    border-width: 0.2rem;
+    border-style: solid;
+    cursor: pointer;
+}
+
+.signup:hover {
+    background-color: powderblue;
+    transition-duration: 1s; 
+ }
+
+.header_desc {
+    color: rgb(99, 99, 99);
+    margin: 0 auto;
+    padding: 1rem 5rem;
+    font-size: 1rem;
+    text-align: center;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nature_pics {
+    height: 150rem;
+    background-color: rgb(90, 90, 90);
+}
+
+.second_desc {
+    margin: 0;
+    padding: 2rem;
+    font-weight: 200;
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+}
+
+.pics {
+    margin: 0 10rem 10rem 10rem;
+}
+
+.ad {
+    position: relative;
+    bottom: 0px;
+    color: white;
+    text-align: center;
+
+}
